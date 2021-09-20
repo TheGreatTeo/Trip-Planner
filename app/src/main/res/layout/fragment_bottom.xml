@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/radius"
+    tools:context=".fragment_bottom">
+
+
+    <TextView
+        android:id="@+id/nr_places"
+        android:layout_width="62dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="50dp"
+        android:textColor="#FFFFFF"
+        android:textSize="12dp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="37dp"
+        android:layout_gravity="right"
+        android:layout_marginTop="15dp"
+        android:layout_marginRight="30dp"
+        android:background="@android:color/transparent"
+        android:textSize="12sp" />
+
+    <ListView
+        android:id="@+id/listView"
+        android:layout_width="fill_parent"
+        android:layout_height="218dp"
+        android:layout_marginTop="100dp" />
+
+    <TextView
+        android:id="@+id/dateText"
+        android:layout_width="147dp"
+        android:layout_height="34dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:textColor="#FFFFFF"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/duration"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="20dp"
+        android:textColor="#FFFFFF"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/getLocations"
+        android:layout_width="140dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:layout_marginLeft="30dp"
+        android:layout_marginBottom="10dp"
+        android:text="create route" />
+
+    <Button
+        android:id="@+id/optimize"
+        android:layout_width="140dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:layout_marginLeft="240dp"
+        android:layout_marginBottom="10dp"
+        android:text="Optimize" />
+
+</FrameLayout>

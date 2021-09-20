@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">Trip Planner</string>
+    <string name="google_maps_key">AIzaSyBZI_g33cPWmGwF78KKfWPpfEazN_Cgbf4</string>
+    <string name="google_places_key">AIzaSyAf4CNz3tHdgU9gUhauRhJLt8ZaqHtssHo</string>
+    <string name="db_drop">DROP TABLE IF EXISTS</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_drawer">drawer</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_add">New route</string>
+    <string name="menu_settings">Settings</string>
+    <string name="menu_exit">Log out</string>
+    <string name="title_activity_menu">menu</string>
+    <string name="title_activity_settings">settingsActivity</string>
+    <!--
+    This string is used for square devices and overridden by hello_world in
+    values-round/strings.xml for round devices.
+    -->
+    <string name="hello_world">Hello Square World!</string>
+</resources>

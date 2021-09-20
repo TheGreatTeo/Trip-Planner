@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "167601447357",
+    "firebase_url": "https://fir-licenta-2bf56-default-rtdb.europe-west1.firebasedatabase.app",
+    "project_id": "fir-licenta-2bf56",
+    "storage_bucket": "fir-licenta-2bf56.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:167601447357:android:447ca616f4c0e54a5632d4",
+        "android_client_info": {
+          "package_name": "com.example.maps_places_2_0"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "167601447357-jjlgfp76cucujoa14uakvi9n5kc6ohmv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAUnIq1ASaTo9Dwvb1Ne-vHsU_v406E2g0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "167601447357-jjlgfp76cucujoa14uakvi9n5kc6ohmv.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
